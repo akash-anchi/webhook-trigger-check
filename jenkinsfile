@@ -4,7 +4,7 @@ pipeline {
     environment {
         GITHUB_CREDENTIALS = credentials('Github')       // Jenkins ID for GitHub
         DOCKERHUB_CREDENTIALS = credentials('Dockerhub') // Jenkins ID for Docker Hub
-        IMAGE_NAME = "in29mins/jenkins_demo"
+        IMAGE_NAME = "in29mins/jenkins_demo_latest_v2"
     }
 
     triggers {
